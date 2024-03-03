@@ -2,6 +2,7 @@
 
 This is an opiniated starter template for a NestJS application with Supabase as the database.
 
+* pnpm
 * Nestjs API backend
 * Swagger for API documentation
 * Drizzleorm as the ORM
