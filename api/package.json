@@ -25,6 +25,7 @@
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
     "@supabase/supabase-js": "^2.39.7",
+    "drizzle-orm": "^0.29.4",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1"
   },
@@ -38,6 +39,7 @@
     "@types/supertest": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
+    "drizzle-kit": "^0.20.14",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
