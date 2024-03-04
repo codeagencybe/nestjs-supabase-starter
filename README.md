@@ -4,6 +4,7 @@ This is an opiniated starter template for a NestJS application with Supabase as 
 
 * pnpm
 * Nestjs API backend
+* Fastify as the server
 * Swagger for API documentation
 * Drizzleorm as the ORM
 * Supabase as the database
@@ -24,6 +25,7 @@ This is an opiniated starter template for a NestJS application with Supabase as 
 
 ## Inspiration & credits to
 * [NestJS](https://nestjs.com/)
+* [Fastify](https://www.fastify.io/)
 * [Supabase](https://supabase.io/)
 * [Nextauth](https://next-auth.js.org/)
 * [Nextjs](https://nextjs.org/)
