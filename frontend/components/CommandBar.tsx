@@ -20,7 +20,7 @@ export default function CommandBar() {
     const [open, setOpen] = useState<boolean>(false);
     return ( <div>
 
-        <Command>
+        <Command className="rounded-lg border">
         <CommandInput placeholder="Type a command or search..." />
         {open && <CommandList>
             <CommandEmpty>No results found.</CommandEmpty>

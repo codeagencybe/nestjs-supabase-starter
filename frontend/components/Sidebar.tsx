@@ -46,21 +46,6 @@ export default function Sidebar() {
                     icon: <MessageSquareText />,
                     text: "Logs",
                 },
-                {
-                    link: "/",
-                    icon: <User />,
-                    text: "Profile",
-                },
-                {
-                    link: "/",
-                    icon: <CreditCard />,
-                    text: "Billing",
-                },
-                {
-                    link: "/",
-                    icon: <Settings />,
-                    text: "Settings",
-                },
             ]
         },
         {
@@ -88,8 +73,13 @@ export default function Sidebar() {
             items: [
                 {
                     link: "/",
-                    icon: <Settings />,
-                    text: "General settings",
+                    icon: <User />,
+                    text: "Profile",
+                },
+                {
+                    link: "/",
+                    icon: <CreditCard />,
+                    text: "Billing",
                 },
                 {
                     link: "/",
@@ -100,6 +90,11 @@ export default function Sidebar() {
                     link: "/",
                     icon: <Bell />,
                     text: "Notifications",
+                },
+                {
+                    link: "/",
+                    icon: <Settings />,
+                    text: "Settings",
                 },
             ]
         },

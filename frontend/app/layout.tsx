@@ -18,11 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={'${inter.className} flex items-start justify-between'}>
+      <body className={`${inter.className} flex items-start justify-between`}>
         <Sidebar />
-        <main className="grid w-full h-full pl-[300px]">
+        <main className="grid h-full pl-[300px]" style={{ width: 'calc(100%)' }}>
           <Header />
-          {children}
+          <div className="p-8">
+            {children}
+          </div>
         </main>
       </body>
     </html>
