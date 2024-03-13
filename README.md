@@ -14,6 +14,7 @@ This is an opiniated starter template for a NestJS application with Supabase as 
 - Swagger for API documentation
 - Drizzleorm as the ORM
 - Supabase as the database
+- ElectricSQL as localfirst sync integraded with Supabase
 - Nextauth for authentication with Supabase RLS
 - Nextjs frontend
 - Tailwindcss for styling
@@ -50,6 +51,8 @@ This is an opiniated starter template for a NestJS application with Supabase as 
 - [KeyDB](https://keydb.dev/)
 - [Dragonfly](https://dragonflydb.com/)
 - [Supabase](https://supabase.io/)
+- [ElectricSQL](https://electricsql.com/)
+- [ElectricSQL integration Supabase](https://supabase.com/partners/integrations/electricsql)
 - [Nextauth](https://next-auth.js.org/)
 - [Nextjs](https://nextjs.org/)
 - [Tailwindcss](https://tailwindcss.com/)
