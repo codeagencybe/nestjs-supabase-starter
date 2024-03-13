@@ -22,16 +22,19 @@ This is an opiniated starter template for a NestJS application with Supabase as 
 ## Todo
 
 - [ ] migrate to monorepo
+- [ ] add auth for backend and frontend (JWT with refresh tokens?)
 - [ ] add rate limiting
 - [ ] add caching
 - [ ] add queue
 - [ ] move shared types and utils to a shared package
 - [ ] create a basic API user model
 - [ ] create a basic dashboard layout as starting point
+- [ ] create a simple todo app to demo functionality
 
 ## Demo model:
 
 - users
+- todos
 
 ## Inspiration & credits to
 
