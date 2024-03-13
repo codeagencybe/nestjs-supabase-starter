@@ -2,6 +2,8 @@
 
 This is an opiniated starter template for a NestJS application with Supabase as the database.
 
+### _**-->Please read the links on the bottom of this readme first<--**_
+
 - pnpm
 - Nestjs API backend
 - Fastify as the server
@@ -33,6 +35,10 @@ This is an opiniated starter template for a NestJS application with Supabase as 
 
 ## Inspiration & credits to
 
+- [Rokas Dam](https://github.com/devRokas)
+- [Rokas Dam nestjs starter - Nestjs + Supabase (no fastify, no drizzle, no auth)](https://github.com/devRokas/supabase-nestjs-rest-api-starter-kit)
+- [Sakura Dev - video 1: Nestjs with Prisma and Nextauth](https://www.youtube.com/watch?v=khNwrFJ-Xqs)
+- [Sakura Dev - Video 2: refactoring Nestjs with Drizzle](https://www.youtube.com/watch?v=l1DGXmmgZ9w)
 - [NestJS](https://nestjs.com/)
 - [Fastify](https://www.fastify.io/)
 - [Pino](https://getpino.io/)
@@ -47,6 +53,3 @@ This is an opiniated starter template for a NestJS application with Supabase as 
 - [Shadcn](https://shadcn.com/)
 - [Drizzleorm](https://drizzleorm.com/)
 - [pnpm](https://pnpm.io/)
-- [Rokas Dam](https://github.com/devRokas)
-- [Sakura Dev - Nestjs with Nextauth](https://www.youtube.com/watch?v=khNwrFJ-Xqs)
-- [Sakura Dev - Nestjs with Drizzle](https://www.youtube.com/watch?v=l1DGXmmgZ9w)
