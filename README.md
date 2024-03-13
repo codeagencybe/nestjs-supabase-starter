@@ -56,3 +56,38 @@ This is an opiniated starter template for a NestJS application with Supabase as 
 - [Shadcn](https://shadcn.com/)
 - [Drizzleorm](https://drizzleorm.com/)
 - [pnpm](https://pnpm.io/)
+
+## Schema
+
+```mermaid
+graph TD;
+  subgraph "Frontend"
+    A[Next.js Frontend] --> B[Login Page]
+    A --> C[Signup Page]
+    A --> D[Dashboard]
+    style B,C,D fill:#0b6b00,stroke:#0b6b00,stroke-width:4px
+  end
+  subgraph "Backend"
+    E[NestJS with Fastify API Backend] --> F[Authentication & Authorization]
+    E --> G[CRUD Operations for Tasks]
+    F --> H[JWT Tokens]
+    G --> I[Supabase Database]
+    style F,H,G fill:#85007c,stroke:#85007c,stroke-width:4px
+  end
+  subgraph "Database"
+    I[Supabase Database] --> J[Users Table]
+    I --> K[Tasks Table]
+    style J,K fill:#00328f,stroke:#00328f,stroke-width:4px
+  end
+  subgraph "Auth with JWT Refresh Tokens"
+    F --> L[Token Generation & Refresh]
+    style L fill:#f00,stroke:#f00,stroke-width:4px
+  end
+  subgraph "Security Considerations"
+    B --> M[Secure Storage]
+    E --> N[Input Validation & Sanitization]
+    N --> O[HTTPS Communication]
+    style M,N,O fill:#bd6202,stroke:#bd6202,stroke-width:4px
+  end
+
+```
